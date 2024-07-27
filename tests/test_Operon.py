@@ -2,7 +2,7 @@ import pytest
 import pickle
 import numpy as np
 
-from genome_sequences import Gene, Operon
+from sequences import Gene, Operon
 
 PATH_TO_GENOME = r".................\\Data\\General\\"
 with open(PATH_TO_GENOME+"BW25113_genome.pkl", "rb") as input:

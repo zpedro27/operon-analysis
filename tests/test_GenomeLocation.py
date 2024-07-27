@@ -2,7 +2,7 @@ import pytest
 import pickle
 from Bio.SeqFeature import FeatureLocation, CompoundLocation, ExactPosition
 
-from genome_locations import GenomeLocation
+from locations import GenomeLocation
 
 PATH_TO_GENOME = r"...............\\Data\\General\\"
 with open(PATH_TO_GENOME+"BW25113_genome.pkl", "rb") as input:

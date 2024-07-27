@@ -2,7 +2,7 @@ import pytest
 import pandas as pd
 import numpy as np
 
-from genome_sequences import observed_freq, max_freq
+from sequences import observed_freq, max_freq
 
 PATH_TO_GENOME = r".......\\Data\\General\\"
 

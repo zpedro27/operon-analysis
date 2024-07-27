@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 import pandas as pd
 
-from genome_sequences import Gene
+from sequences import Gene
 
 PATH_TO_GENOME = r"...........\\Data\\General\\"
 with open(PATH_TO_GENOME+"BW25113_genome.pkl", "rb") as input:
