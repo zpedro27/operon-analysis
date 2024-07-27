@@ -4,8 +4,8 @@ from Bio.SeqFeature import FeatureLocation, CompoundLocation, ExactPosition
 
 from locations import GenomeLocation
 
-PATH_TO_GENOME = r"...............\\Data\\General\\"
-with open(PATH_TO_GENOME+"BW25113_genome.pkl", "rb") as input:
+
+with open("data/BW25113_genome.pkl", "rb") as input:
     GENOME = pickle.load(input)
 
 # Fixtures for each test:

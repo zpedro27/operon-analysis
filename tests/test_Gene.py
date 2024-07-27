@@ -5,11 +5,11 @@ import pandas as pd
 
 from sequences import Gene
 
-PATH_TO_GENOME = r"...........\\Data\\General\\"
-with open(PATH_TO_GENOME+"BW25113_genome.pkl", "rb") as input:
+
+with open("data/BW25113_genome.pkl", "rb") as input:
     GENOME = pickle.load(input)
 
-CODON_TABLE = pd.read_csv(PATH_TO_GENOME+"Edinburgh-Genome-Foundry_e_coli_316407.csv")
+CODON_TABLE = pd.read_csv("data/Edinburgh-Genome-Foundry_e_coli_316407.csv")
 
 # Fixtures for each test:
 @pytest.fixture

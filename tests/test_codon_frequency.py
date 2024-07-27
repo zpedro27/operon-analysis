@@ -4,9 +4,8 @@ import numpy as np
 
 from sequences import observed_freq, max_freq
 
-PATH_TO_GENOME = r".......\\Data\\General\\"
 
-CODON_TABLE = pd.read_csv(PATH_TO_GENOME+"Edinburgh-Genome-Foundry_e_coli_316407.csv")
+CODON_TABLE = pd.read_csv("data/Edinburgh-Genome-Foundry_e_coli_316407.csv")
 
 
 # Test suite:
